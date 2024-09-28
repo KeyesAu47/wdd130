@@ -1,0 +1,32 @@
+
+
+main {
+    max-width: 840px;
+    margin: 0 auto; /* Center the main content */
+}
+main img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+    p {
+        padding: 0;
+    }
+aside {
+    width: 250px;
+    margin: 20px;
+    border: 1px solid #a00909;
+    padding: 15px;
+    background-color: #b5acac;
+    color: #1f1a1a;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
