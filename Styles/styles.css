@@ -16,9 +16,9 @@ main img {
 aside {
     width: 250px;
     margin: 20px;
-    border: 1px solid #a00909;
+    border: 1px solid #f1f1f1;
     padding: 15px;
-    background-color: #b5acac;
+    background-color: #a50303;
     color: #1f1a1a;
 }
 aside img {
