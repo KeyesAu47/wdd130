@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whitewater Rafting Vacations </title>
+    <title>Whitewater Rafting Vacations</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -21,91 +21,63 @@
                 <a href="contact.html">Contact Us</a>
             </nav>
         </header>
-       
+
         <main>
             <div id="feedback"></div>
             <form action="/my-handling-form-page" method="post">
                 <ul>
                     <li>
-                        <label for="messag3">Please contact us with any questions:</label>
+                        <label for="msg">Please contact us with any questions:</label>
+                        <textarea id="msg" name="user_message" required></textarea>
                     </li>
                     <li>
                         <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name">
+                        <input type="text" id="name" name="user_name" required>
                     </li>
                     <li>
                         <label for="mail">Email:</label>
-                        <input type="email" id="mail" name="user_email">
+                        <input type="email" id="mail" name="user_email" required>
                     </li>
                     <li>
                         <label>Message Purpose:</label><br>
-                        <label class="sbs"><input type="radio" name="Subject" value="Subject1">General Inquiry</label><br>
+                        <label class="sbs"><input type="radio" name="Subject" value="Subject1" required>General Inquiry</label><br>
                         <label class="sbs"><input type="radio" name="Subject" value="Subject2">Reservation Question</label><br>
                         <label class="sbs"><input type="radio" name="Subject" value="Subject3">Website Suggestion</label><br>
                     </li>
                     <li>
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
+                        <label for="user_message">Message:</label> <!-- Updated for attribute -->
+                        <textarea id="user_message" name="user_message" required></textarea>
                     </li>
                     <li>
-                        <label class="sbs"><input type="radio" name="audiance" value="subscribe">Please subscribe me to the monthly newsletter</label><br>
+                        <label class="sbs"><input type="radio" name="audience" value="subscribe">Please subscribe me to the monthly newsletter</label><br>
                     </li>
                     <li class="button">
                         <button type="submit">Send your message</button>
                     </li>
                 </ul>
             </form>
-
-            <script>
-                const feedbackElement = document.getElementById('feedback');
-                const formElement = document.forms[0];
-                formElement.addEventListener('submit', function(e) {
-                    e.preventDefault();
-                    feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
-                    feedbackElement.style.display = "block";
-                    document.body.classList.toggle('moveDown');
-                });
-            </script>
-
-            <section class="rivers-card">
-                <h2>Meet Our Team</h2>
-                <div style="display: flex; justify-content: space-between;">
-                    <figure>
-                        <img src="images/Ceo.jpg" alt="river in forest">
-                        <figcaption>Ceo</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/Travel-planner.jpg" alt="tent in mountains">
-                        <figcaption>Travel-planner</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/Guide.jpg" alt="rafting boat">
-                        <figcaption>Guide</figcaption>
-                    </figure>
-                </div>
-            </section>
-            <section>
-                <a href="contact.html" class="cta-button">Contact us for Trip Details:</a>
-            </section>
         </main>
-
+        
+        
+        
         <footer>
             <section>
                 <h2>Contact Information</h2>
                 <div>
                     <p>Company info:</p>
-                    <p>Address: xxxxN. xxxxW. plaincity UT.</p>
+                    <p>Address: xxxx N. xxxx W. Plain City, UT.</p>
                     <p>Email: Dryoar@gmail.com</p>
                     <p>Phone number: (555) 599-8858</p>
                 </div>
             </section>
             <section>
                 <div>
-                  <figure1>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36274.63448072595!2d-112.06208120278073!3d41.3021812376296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1729372263589!5m2!1sen!2sus" 
-                    width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  </figure1>
-              </section>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36274.63448072595!2d-112.06208120278073!3d41.3021812376296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1729372263589!5m2!1sen!2sus" 
+                        width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+                </div>
+            </section>
             <section>
                 <h2>Quick Links</h2>
                 <div>
@@ -113,13 +85,13 @@
                     <p><a href="contactus.html">Contact Us</a></p>
                     <div class="social">
                         <a href="https://facebook.com" target="_blank">
-                            <img src="images/facebook.png" alt="fb icon">
+                            <img src="images/facebook.png" alt="Facebook icon">
                         </a>
                         <a href="https://twitter.com" target="_blank">
-                            <img src="images/twitter.png" alt="twitter icon">
+                            <img src="images/twitter.png" alt="Twitter icon">
                         </a>
                         <a href="https://instagram.com" target="_blank">
-                            <img src="images/instagram.png" alt="instagram icon">
+                            <img src="images/instagram.png" alt="Instagram icon">
                         </a>
                     </div>
                     <nav>
