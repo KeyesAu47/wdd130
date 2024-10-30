@@ -68,7 +68,7 @@ nav a:hover {
 /* Updated hover color for buttons */
 .book:hover, .join:hover {
   background-color: #007acc; /* Darker shade for contrast */
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 #background {
@@ -78,7 +78,7 @@ nav a:hover {
 }
 
 .msg {
-  background-color: red;
+  background-color: rgb(97, 0, 0);
   line-height: 1.5em;
   padding: 35px;
   grid-column: 6 / 10;
@@ -291,7 +291,7 @@ figcaption {
 }
 
 #feedback {
-  background-color: antiquewhite;
+  background-color: rgb(41, 41, 41);
   position: absolute;
   top: 0;
   left: 0;
@@ -368,7 +368,7 @@ button {
 }
 
 .cta-button:hover {
-  background-color: #007acc; /* Darker shade for better contrast */
+  background-color: #013455; /* Darker shade for better contrast */
 }
 
 /* Trips Grid Layout */
@@ -383,7 +383,7 @@ button {
 .trip {
   width: 300px;
   background-color: white;
-  border: 1px solid #ccc;
+  border: 1px solid #2c2c2c;
   padding: 20px;
   border-radius: 5px;
   text-align: center;
