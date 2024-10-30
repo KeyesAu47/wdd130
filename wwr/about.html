@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whitewater Rafting Vacations</title>
     <link rel="stylesheet" href="styles/rafting.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -16,37 +17,37 @@
             </a>
             <nav>
                 <a href="index.html">Home</a>
-                <a href="about1.html">About us</a>
+                <a href="about.html">About us</a>
                 <a href="trips.html">Trips</a>
                 <a href="contact.html">Contact Us</a>
             </nav>
         </header>
         
-        <div id="hero">
+        <div id="hero" class="hero">
             <div id="hero-box">
                 <img id="hero-img" src="images/hero.png" alt="People enjoying white water rafting">
             </div>
-            <section id="hero-msg">
+            <article>
                 <h1 class="home-title">Have An Adventure</h1>
-                <h4>Make Memories with Dry Oar</h4>
-                <div class='button-box'>
-                    <a class='book' href="contactus.html">Book Now</a>
-                </div>
-            </section> <!-- Removed extra closing section tag -->
-        </div> <!-- Closing div for #hero -->
+                <h2>Make Memories with Dry Oar</h2>
+                <img src="images/rafting-thumbnail.jpg" alt="Rafting Thumbnail">
+            </article>
+            <div class='button-box'>
+                <a class='book' href="contactus.html">Book Now</a>
+            </div>
+        </div> 
 
         <main class="home-grid">
-            <section class="History"> <!-- Changed 'Section' to 'section' -->
+            <section class="History">
                 <h2>History</h2>
                 <div style="display: flex; justify-content: space-between;">
-                    <p>White water rafting has its roots in the early 19th century when adventurers began using small boats to navigate turbulent river rapids. It gained popularity in the mid-20th century as a recreational sport, with innovations in inflatable rafts making it safer and more accessible. In 1842, Lieutenant John Fremont’s expedition down the Platte River marked one of the first recorded rafting trips in the U.S. The sport truly gained momentum in the 1960s and 1970s, becoming a mainstream outdoor activity. Today, white water rafting is enjoyed worldwide, from the Colorado River in the U.S. to the Zambezi River in Africa.</p>
-                    
+                    <p>White water rafting has a rich history that dates back to the early 19th century when adventurous explorers and pioneers first navigated America’s wild rivers. The first documented rafting expedition occurred in 1811 on the Missouri River, led by John Colter, a member of the Lewis and Clark expedition. However, it wasn’t until the 1940s and 1950s that rafting gained popularity as a recreational activity. The invention of inflatable rafts made it accessible to the general public, leading to organized rafting trips and the establishment of commercial rafting companies. Today, white water rafting is a thrilling outdoor sport enjoyed worldwide, celebrated for its blend of adventure and teamwork amidst stunning natural landscapes.</p>
                     <img class="card" src="images/photo-1629248457649-b082812aea6c.jpg" alt="White water rafting">
                 </div>
             </section>
         
             <section class="rivers-card">
-                <h2>Rivers</h2> <!-- Added heading -->
+                <h2>Adventure Awaits You!</h2>
                 <div style="display: flex; justify-content: space-between;">
                     <figure>
                         <img src="images/rivers.jpg" alt="river in forest" />
@@ -71,24 +72,15 @@
                 </div>
             </section>
         
-            <div id="background"></div> 
-        
-            <section class="Mountains">
-                <h2>Mountains</h2> <!-- Added heading -->
-                <img class="card-img" src="images/mountains.jpg" alt="mountains">
-            </section>
-
             <section class="msg">
                 <h2>More Than Just The Thrill</h2>
-                <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors.</p>
+                <p>Enjoy the breathtaking scenery...</p>
                 <a class='join' href="rivers.html">Join Us</a>
             </section>
         </main>
         
         <footer>
             <p>Dry Oar &copy; 20XX - Austin Keyes</p>
-            <p><a href="site-plan-rafting.html">Site Plan</a></p>
-            <p><a href="contactus.html">Contact Us</a></p>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
                     <img src="images/facebook.png" alt="fb icon">

@@ -41,9 +41,10 @@ header {
   grid-template-columns: 150px auto;
 }
 
+/* Updated hover color for nav links */
 nav a:hover {
-  background-color: black;
-  color: #d9c2a3;
+  background-color: #333333; /* Darker shade for contrast */
+  color: #e0e0e0; /* Lighter color for readability */
 }
 
 .book, .join {
@@ -58,16 +59,15 @@ nav a:hover {
 
 .History {
   margin-top: 50px;
-  
 }
 
 .card {
-  border-image-width: 500px;
   width: 300px;
 }
 
+/* Updated hover color for buttons */
 .book:hover, .join:hover {
-  background-color: aqua;
+  background-color: #007acc; /* Darker shade for contrast */
   color: white;
 }
 
@@ -103,13 +103,18 @@ footer {
   margin-top: 10px;
 }
 
+/* Improved contrast for headings */
 h4 {
-  color: white;
+  color: #f0f0f0;
+  background-color: #333333; /* Darker background for contrast */
+  padding: 5px;
 }
 
 .msg h2 {
-  color: white;
+  color: #f0f0f0;
+  background-color: #333333;
   font-family: cursive;
+  padding: 5px;
 }
 
 .msg p {
@@ -118,13 +123,15 @@ h4 {
   padding-bottom: 15px;
 }
 
+/* Improved footer link hover contrast */
 footer a {
   color: white;
   text-decoration: none;
 }
 
 footer a:hover {
-  color: white;
+  color: #e0e0e0; /* Lighter shade for readability */
+  text-decoration: underline;
 }
 
 .icon {
@@ -133,7 +140,7 @@ footer a:hover {
 }
 
 #hero-img {
-  padding: auto;
+  margin: auto; /* Corrected from padding */
   width: 100%;
   height: 100%;
 }
@@ -182,7 +189,6 @@ nav {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   margin-top: 25px;
-
 }
 
 #hero-box {
@@ -343,12 +349,14 @@ textarea {
 button {
   margin-left: 0.5em;
 }
+
 /* CTA Section */
 .cta-section {
   margin-top: 30px;
   text-align: center;
 }
 
+/* Updated hover for CTA button */
 .cta-button {
   background-color: black;
   color: white;
@@ -360,7 +368,7 @@ button {
 }
 
 .cta-button:hover {
-  background-color: aqua;
+  background-color: #007acc; /* Darker shade for better contrast */
 }
 
 /* Trips Grid Layout */
@@ -396,39 +404,3 @@ button {
 
 .trip p {
   font-size: 1em;
-  color: #555;
-}
-
-/* Trips Table */
-.trips-table-section {
-  margin-top: 40px;
-  text-align: center;
-}
-
-.trips-table-section table {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  border-collapse: collapse;
-  font-family: 'Times New Roman', serif;
-}
-
-.trips-table-section th,
-.trips-table-section td {
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-.trips-table-section th {
-  background-color: #005f99;
-  color: white;
-  font-weight: bold;
-}
-
-.trips-table-section td {
-  background-color: #fcfbfb;
-}
-
-.trips-table-section tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
