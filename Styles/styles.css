@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif; /* Added fallback font */
     margin: 0;
     padding: 10px;
-    background-color: #d2cfcf;
+    background-color: #d2cfcfcf;
 }
 
 /* Header Styling */
@@ -35,12 +35,20 @@ main {
 }
 
 /* Navigation Styles */
+nav {
+    background-color: #4e0505; /* Background color for the nav */
+}
+
 .nav-list {
     display: flex;
     justify-content: space-around;
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.nav-list li {
+    /* Add styles for list items if needed */
 }
 
 .nav-list li a {
