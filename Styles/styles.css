@@ -34,7 +34,7 @@ main {
     height: auto;
 }
 
-/* Replace nav styles with equivalent class selectors */
+/* Navigation Styles */
 .nav-list {
     display: flex;
     justify-content: space-around;
