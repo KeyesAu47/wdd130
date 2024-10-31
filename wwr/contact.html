@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Dryoar Rafting Vacations</title>
-    <meta name="description" content="Austin Keyes redition of the contact page for the website)">
+    <meta name="description" content="Austin Keyes rendition of the contact page for the website">
     <meta name="author" content="Austin Keyes">
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
             <nav>
                 <a href="index.html">Home</a>
                 <a href="trips.html">Trips</a>
-                <a href="about.html">About us</a>
+                <a href="about.html">About Us</a>
                 <a href="contact.html">Contact Us</a>
             </nav>
         </header>
@@ -32,29 +32,25 @@
             <form action="/my-handling-form-page" method="post">
                 <ul>
                     <li>
-                        <label for="msg">Please contact us with any questions:</label>
-                        <textarea id="msg" name="user_message" required></textarea>
+                        <label for="user_message">Please contact us with any questions:</label>
+                        <textarea id="user_message" name="user_message" required></textarea>
                     </li>
                     <li>
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="user_name" required>
                     </li>
                     <li>
-                        <label for="mail">Email:</label>
-                        <input type="email" id="mail" name="user_email" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="user_email" required>
                     </li>
                     <li>
                         <label>Message Purpose:</label><br>
-                        <label class="sbs"><input type="radio" name="Subject" value="Subject1" required>General Inquiry</label><br>
-                        <label class="sbs"><input type="radio" name="Subject" value="Subject2">Reservation Question</label><br>
-                        <label class="sbs"><input type="radio" name="Subject" value="Subject3">Website Suggestion</label><br>
+                        <label class="sbs"><input type="radio" name="subject" value="General Inquiry" required> General Inquiry</label><br>
+                        <label class="sbs"><input type="radio" name="subject" value="Reservation Question"> Reservation Question</label><br>
+                        <label class="sbs"><input type="radio" name="subject" value="Website Suggestion"> Website Suggestion</label><br>
                     </li>
                     <li>
-                        <label for="user_message">Message:</label> <!-- Updated for attribute -->
-                        <textarea id="user_message" name="user_message" required></textarea>
-                    </li>
-                    <li>
-                        <label class="sbs"><input type="radio" name="audience" value="subscribe">Please subscribe me to the monthly newsletter</label><br>
+                        <label class="sbs"><input type="checkbox" name="subscribe" value="yes"> Please subscribe me to the monthly newsletter</label>
                     </li>
                     <li class="button">
                         <button type="submit">Send your message</button>
@@ -62,66 +58,52 @@
                 </ul>
             </form>
 
-                <!-- Employee Profile Section -->
+            <!-- Employee Profile Section -->
             <section id="employee-profiles">
                 <h2>Meet Our Team</h2>
                 <div class="employee">
-                    <img src="images/Ceo.jpg" alt="Employee 1" class="profile-image">
+                    <img src="images/Ceo.jpg" alt="Trip Coordinator - Joefeen Doe" class="profile-image">
                     <p>Joefeen Doe<br><span>Trip Coordinator</span></p>
                 </div>
-                 <div class="employee">
-                    <img src="images/Guide.jpg" alt="Employee 2" class="profile-image">
+                <div class="employee">
+                    <img src="images/Guide.jpg" alt="Rafting Guide - Jone Smith" class="profile-image">
                     <p>Jone Smith<br><span>Rafting Guide</span></p>
                 </div>
                 <div class="employee">
-                    <img src="images/Travel-planner.jpg" alt="Employee 3" class="profile-image">
+                    <img src="images/Travel-planner.jpg" alt="Customer Service Manager - Mictheal Johnson" class="profile-image">
                     <p>Mictheal Johnson<br><span>Customer Service Manager</span></p>
                 </div>
             </section>
         </main>
-        
-        
-        
+
         <footer>
             <section>
                 <h2>Contact Information</h2>
-                <div>
-                    <p>Company info:</p>
-                    <p>Address: xxxx N. xxxx W. Plain City, UT.</p>
-                    <p>Email: Dryoar@gmail.com</p>
-                    <p>Phone number: (555) 599-8858</p>
-                </div>
+                <p>Company info:</p>
+                <p>Address: xxxx N. xxxx W. Plain City, UT.</p>
+                <p>Email: Dryoar@gmail.com</p>
+                <p>Phone number: (555) 599-8858</p>
             </section>
             <section>
-                <div>
-                    <figure>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36274.63448072595!2d-112.06208120278073!3d41.3021812376296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1729372263589!5m2!1sen!2sus" 
-                        width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </figure>
-                </div>
+                <figure>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36274.63448072595!2d-112.06208120278073!3d41.3021812376296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1729372263589!5m2!1sen!2sus"
+                    width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </figure>
             </section>
             <section>
                 <h2>Quick Links</h2>
-                <div>
-                    <p><a href="site-plan-rafting.html">Site Plan</a></p>
-                    <p><a href="contactus.html">Contact Us</a></p>
-                    <div class="social">
-                        <a href="https://facebook.com" target="_blank">
-                            <img src="images/facebook.png" alt="Facebook icon">
-                        </a>
-                        <a href="https://twitter.com" target="_blank">
-                            <img src="images/twitter.png" alt="Twitter icon">
-                        </a>
-                        <a href="https://instagram.com" target="_blank">
-                            <img src="images/instagram.png" alt="Instagram icon">
-                        </a>
-                    </div>
-                    <nav>
-                        <ul class="nav">
-                            <li><a href="https://app.moqups.com/80RUm3vdZN2lAKqcaKy1xj0xnwR53MOp/view/page/ad64222d5">Wireframe</a></li>
-                        </ul>
-                    </nav>
+                <p><a href="site-plan-rafting.html">Site Plan</a></p>
+                <p><a href="contactus.html">Contact Us</a></p>
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook icon"></a>
+                    <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter icon"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram icon"></a>
                 </div>
+                <nav>
+                    <ul class="nav">
+                        <li><a href="https://app.moqups.com/80RUm3vdZN2lAKqcaKy1xj0xnwR53MOp/view/page/ad64222d5">Wireframe</a></li>
+                    </ul>
+                </nav>
             </section>
         </footer>
     </div>
