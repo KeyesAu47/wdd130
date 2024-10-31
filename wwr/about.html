@@ -42,9 +42,9 @@
         </div> 
 
         <main class="home-grid">
-            <section class="History">
+            <section class="history">
                 <h2>History</h2>
-                <div style="display: flex; justify-content: space-between;">
+                <div class="history-content">
                     <p>White water rafting has a rich history that dates back to the early 19th century when adventurous explorers and pioneers first navigated America’s wild rivers. The first documented rafting expedition occurred in 1811 on the Missouri River, led by John Colter, a member of the Lewis and Clark expedition. However, it wasn’t until the 1940s and 1950s that rafting gained popularity as a recreational activity. The invention of inflatable rafts made it accessible to the general public, leading to organized rafting trips and the establishment of commercial rafting companies. Today, white water rafting is a thrilling outdoor sport enjoyed worldwide, celebrated for its blend of adventure and teamwork amidst stunning natural landscapes.</p>
                     <img class="card" src="images/photo-1629248457649-b082812aea6c.jpg" alt="White water rafting">
                 </div>
@@ -52,7 +52,7 @@
         
             <section class="rivers-card">
                 <h2>Adventure Awaits You!</h2>
-                <div style="display: flex; justify-content: space-between;">
+                <div class="adventure-content">
                     <figure>
                         <img src="images/rivers.jpg" alt="river in forest" />
                         <figcaption>Rivers</figcaption>
@@ -84,19 +84,22 @@
         </main>
         
         <footer>
-            <p>Dry Oar &copy; 20XX - Austin Keyes</p>
+            <p>Dry Oar &copy; <span id="year"></span> - Austin Keyes</p>
             <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="images/facebook.png" alt="Facebook icon">
                 </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                    <img src="images/twitter.png" alt="Twitter icon">
                 </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <img src="images/instagram.png" alt="Instagram icon">
                 </a>
             </div>
         </footer>
     </div>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
