@@ -34,7 +34,8 @@ main {
     height: auto;
 }
 
-nav ul.nav-list {
+/* Replace nav styles with equivalent class selectors */
+.nav-list {
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -42,14 +43,14 @@ nav ul.nav-list {
     margin: 0;
 }
 
-nav ul.nav-list li a {
+.nav-list li a {
     text-decoration: none;
     font-weight: bold;
     color: white;
     padding: 10px 15px;
 }
 
-nav ul.nav-list li a:hover {
+.nav-list li a:hover {
     color: #007BFF; /* Link hover color */
 }
 
@@ -181,7 +182,7 @@ main img {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    nav ul.nav-list {
+    .nav-list {
         flex-direction: column; /* Stack links on smaller screens */
     }
 
