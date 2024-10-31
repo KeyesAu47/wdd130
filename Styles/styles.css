@@ -24,13 +24,16 @@ h1 {
 }
 
 main {
-    margin: 0 auto; /* Center the main content */
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
 }
 
-/* Navigation Styles */
-nav {
-    /* Add any necessary styles for the nav element here */
+
+
+.logo {
+    max-width: 120px;
+    height: auto;
 }
 
 nav ul.nav-list {
